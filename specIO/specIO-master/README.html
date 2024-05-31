@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+
+</head>
+
+<body>
+
+<h1>specIO</h1>
+
+<p>specIO (spectra Input/Ouput) is a python library for reading data files from number of spectrometer
+manufacturers including ASD, Spectral Evolution, Spectral Vista Corp and Ocean Optics. This library
+reads in a file or folder and parses all the data into a pandas dataframe. In addition to the actual
+spectrum it also stores associated metadata for each file including battery voltage, integration, 
+gain and offset much more!!! Metadata are especially useful for diagnosing data quality issues.</p>
+
+<p>specIO primarily for reading files but contains a few processing options like jump correction for
+the ASD and spectrum interpolation. Once the spectra are in a dataframe its easy to use packages
+like <a href="https://www.scipy.org/">scipy</a> and <a href="https://scikit-learn.org/stable/">scikit-learn</a> for data
+processing and analysis.</p>
+
+<h1>Requirements</h1>
+
+<pre><code>- pandas
+- scipy
+- numpy
+</code></pre>
+
+</body>
+</html>
