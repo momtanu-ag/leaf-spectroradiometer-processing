@@ -4,4 +4,4 @@ Here are the steps if you have reflectance .sig files from SVC (the example csv 
 
 1. Convert .sig to csv (using the specIO package, the code read_plot_SVC.py in specIO folder should be used)
 2. Clean the csv file (remove overlapping bands and interpolate to have 1 nm interval) using clear_noise.py in the main repository
-3. Use PROSPECT code inverse in Rstudio to get the biochemical traits
+3. Use PROSPECT code inverse in Rstudio to get the biochemical traits (allparams_subdomain.R in main repo)
